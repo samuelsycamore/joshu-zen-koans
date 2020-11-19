@@ -108,8 +108,47 @@ Tosu replied,<br>
 `
 ];
 
+//const infoLinks = document.querySelector('.infoContainer');
 
-let newKoan = () => {
+//const infoDisplay = document.createElement('div');
+//infoDisplay.textContent = `Here's some text let's see what happens`;
+//infoLinks.appendChild(infoDisplay);
+
+const koanBtn = document.querySelector('#koanBtn');
+koanBtn.addEventListener('click', newKoan);
+
+function newKoan() {
 let randomNumber = Math.floor(Math.random() * (joshuKoans.length));
 document.getElementById("koanDisplay").innerHTML = joshuKoans[randomNumber];
 };
+
+function toggleMe(a) {
+   let e = document.getElementById(a);
+   let toggleIcon = document.getElementById('toggle-icon');
+   if(!e) return true;
+
+   if(e.style.display == "none") {
+      e.style.display = "block";
+      toggleIcon.innerHTML = '-';
+   }
+   else {
+      e.style.display = "none";
+      toggleIcon.innerHTML = '+';
+   }
+   return true;
+}
+
+//const nav = document.querySelectorAll('li');
+
+// we use the .forEach method to iterate through each button
+//nav.forEach((li) => {
+
+  // and for each one we add a 'click' listener
+  //li.addEventListener('click', () => {
+    //const infoLinks = document.querySelector('.infoContainer');
+
+    //const infoDisplay = document.createElement('div');
+    //infoDisplay.textContent = `Here's some text let's see what happens`;
+    //infoLinks.appendChild(infoDisplay);
+//  });
+//});
