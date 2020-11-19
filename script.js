@@ -75,9 +75,7 @@ Joshu replied,<br>
 
   `<h2>Joshu’s Zen</h2>
 
-Joshu began studying Zen at age 60, and became enlightened at 80.<br>
-He then taught Zen until he died at 120 years old.<br>
-A student once asked him,<br>
+A monk asked Joshu,<br>
 “If I don’t have anything on my mind, what should I do?”<br>
 Joshu answered,<br>
 “Throw it out.”<br>
