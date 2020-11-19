@@ -84,6 +84,7 @@ button {
                 transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
+    margin: 1rem;
 }
 
 button:hover,
