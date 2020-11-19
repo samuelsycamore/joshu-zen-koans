@@ -33,8 +33,7 @@ And he bowed to the hermit.
 
   `<h2>Nansen Kills the Cat</h2>
 
-Nansen saw the monks from two different halls of the monastery<br>
-fighting over a kitten.<br>
+Nansen saw the monks from two different halls of the monastery fighting over a kitten.<br>
 He seized it from the group and said,<br>
 “If any of you can say a single word of Zen right now,<br>
 I will spare this cat’s life. Otherwise I will kill it.”<br>
@@ -109,10 +108,10 @@ Joshu asked Tosu,<br>
 Tosu replied,<br>
 “I don’t allow walking about in the night. Come in the daylight.”
 `
-]
+];
 
 
 let newKoan = () => {
 let randomNumber = Math.floor(Math.random() * (joshuKoans.length));
-document.getElementById('koanDisplay').innerHTML = joshuKoans[randomNumber];
-}
+document.getElementById("koanDisplay").innerHTML = joshuKoans[randomNumber];
+};

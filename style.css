@@ -48,23 +48,61 @@ h1{
 
 h2{
   font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
 a{
-  background: linear-gradient(120deg, rgba(140,9,128,1) 15%, rgba(46,92,242,1) 100%);
+  background: linear-gradient(120deg, rgb(140,9,128) 15%, rgb(46,92,242) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
 }
 
-button{
+/* button{
   font-weight: 300;
   padding: 10px;
   font-size: 2rem;
+} */
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: linear-gradient(120deg, rgba(140,9,128,0.5) 15%, rgba(46,92,242,0.5) 100%);
+    color: rgb(245, 245, 245);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: linear-gradient(120deg, rgb(140,9,128) 15%, rgb(46,92,242) 100%);
+}
+
+button:focus {
+    outline: 1px dotted rgb(245, 245, 245);
+    outline-offset: -10px;
+
+}
+
+button:active {
+    transform: scale(0.99);
 }
 
 .links{
   text-align: center;
+  border-bottom: 1px dotted rgb(46,92,242);
 }
 
 .links > ul > li{
@@ -72,4 +110,17 @@ button{
   display:inline-flex;
   font-size: 1.5rem;
   padding: 0.7rem;
+}
+
+footer{
+  border-top: 1px dotted rgb(46,92,242);
+  font-size: 1.5rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
